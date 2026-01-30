@@ -1,0 +1,14 @@
+{
+  "routes": {
+    "/": {},
+    "/about": {},
+    "/contact": {},
+    "/productcatalog": {},
+    "/productlist": {},
+    "/productreport": {},
+    "/productsearch": {},
+    "/profile": {},
+    "/saleschart": {},
+    "/static": {}
+  }
+}
