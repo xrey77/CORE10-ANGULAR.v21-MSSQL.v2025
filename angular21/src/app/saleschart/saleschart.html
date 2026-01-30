@@ -1,0 +1,14 @@
+@if (chartUrl) {
+  <div class="pdf-container">
+    <object 
+      [data]="chartUrl" 
+      type="application/pdf" 
+      width="100%" 
+      height="600px">
+      <p>
+        Your browser does not support inline PDFs. 
+        <a [href]="chartUrl" download="report.pdf">Download PDF instead</a>.
+      </p>
+    </object>
+  </div>
+}
